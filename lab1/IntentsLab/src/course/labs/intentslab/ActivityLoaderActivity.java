@@ -88,7 +88,7 @@ public class ActivityLoaderActivity extends Activity {
 		// chooserIntent variable below. HINT: using the Intent class' 
 		// createChooser())
 		
-		Intent chooserIntent = Intent.createChooser(intent, "Choose browser");
+		Intent chooserIntent = Intent.createChooser(intent, CHOOSER_TEXT);
 
 		Log.i(TAG,"Chooser Intent Action:" + chooserIntent.getAction());
 		// Start the chooser Activity, using the chooser intent
