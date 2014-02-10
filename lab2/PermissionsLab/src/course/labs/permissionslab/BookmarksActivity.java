@@ -78,8 +78,13 @@ public class BookmarksActivity extends Activity {
 
 		Log.i(TAG, "Entered startGoToDangerousActivity()");
 
-		// TODO - Start the GoToDangerousActivity
+		// Start the GoToDangerousActivity
 		
+		// Create a new intent to launch the ExplicitlyLoadedActivity class
+		Intent intent = new Intent(BookmarksActivity.this, GoToDangerousActivity.class);
+		
+		// Start an Activity using that intent and the request code defined above
+		startActivity(intent);
 
 	}
 
