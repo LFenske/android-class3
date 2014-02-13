@@ -3,5 +3,7 @@
 
     <string name="app_name">DangerousApp</string>
     <string name="hello_world">You have opened a dangerous activity</string>
+    <string name="perm_label">this is a dangerous activity</string>
+    <string name="perm_desc">This is a sample &quot;dangerous activity&quot; for homework.</string>
 
 </resources>
