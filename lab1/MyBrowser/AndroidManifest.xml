@@ -22,7 +22,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
   
-            <!-- TODO - Add necessary intent filter information so that this
+            <!-- Add necessary intent filter information so that this
             			    Activity will accept Intents with the 
             			    action "android.intent.action.VIEW" and with an "http" 
             			    schemed URL -->
